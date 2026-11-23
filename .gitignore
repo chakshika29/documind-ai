@@ -1,0 +1,37 @@
+# Python and Node build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+.npm-cache/
+dist/
+coverage/
+
+# Local settings, private documents, and runtime assets
+.env
+.env.*
+!.env.example
+/backend/data/
+/uploads/
+/models/
+*.pdf
+*.sqlite*
+*.db
+*.db-wal
+*.db-shm
+*.faiss*
+*.safetensors
+pytorch_model*.bin
+*.gguf
+*.incomplete
+
+# Temporary and editor files
+.tmp/
+tmp/
+*.tmp
+*.log
+Thumbs.db
+.DS_Store

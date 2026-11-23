@@ -1,0 +1,79 @@
+{
+  "documents": {
+    "Scholarship Guide.pdf": [
+      "Scholarship applications must be submitted by September 30. Incomplete applications will be returned.",
+      "Scholarship recipients receive an award of 750 dollars."
+    ],
+    "Observatory Handbook.pdf": [
+      "The observatory opens its doors to visitors at 7:30 p.m. on Fridays.",
+      "The maximum number of visitors on an observatory tour is 18."
+    ],
+    "Garden Guide.pdf": [
+      "The public garden is closed every Tuesday for routine maintenance.",
+      "Tomato seedlings should be watered twice a week."
+    ]
+  },
+  "cases": [
+    {
+      "question": "What is the deadline for scholarship applications?",
+      "sources": [
+        [
+          "Scholarship Guide.pdf",
+          1
+        ]
+      ],
+      "answers": [
+        "September 30",
+        "30 September"
+      ]
+    },
+    {
+      "question": "How much money does each scholarship recipient receive?",
+      "sources": [
+        [
+          "Scholarship Guide.pdf",
+          2
+        ]
+      ],
+      "answers": [
+        "750 dollars",
+        "$750",
+        "750"
+      ]
+    },
+    {
+      "question": "How many visitors are allowed on an observatory tour?",
+      "sources": [
+        [
+          "Observatory Handbook.pdf",
+          2
+        ]
+      ],
+      "answers": [
+        "18",
+        "18 visitors"
+      ]
+    },
+    {
+      "question": "Which day is the public garden closed?",
+      "sources": [
+        [
+          "Garden Guide.pdf",
+          1
+        ]
+      ],
+      "answers": [
+        "Tuesday",
+        "every Tuesday"
+      ]
+    },
+    {
+      "question": "What is the director's home address?",
+      "sources": [],
+      "answers": [],
+      "scope": [
+        "Observatory Handbook.pdf"
+      ]
+    }
+  ]
+}
